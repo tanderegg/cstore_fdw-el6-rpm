@@ -11,7 +11,7 @@ fi
 wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 sudo rpm -ivh epel-release-6-8.noarch.rpm
 sudo yum -y install protobuf-c-devel
-sudo yum -y groupinstall "Development Tools"
+sudo yum -y groupinstall "Development tools"
 
 # Configure directory layout
 mkdir -p $HOME/rpmbuild/{BUILD,RPMS,SOURCES,SRPMS}
